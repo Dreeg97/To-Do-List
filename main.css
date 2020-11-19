@@ -64,3 +64,27 @@ button{
     border:1px var(--mainGreen) solid;
     margin-top:100px;
 }
+
+.icons{
+    display: none;
+    justify-content:space-between;
+}
+
+.icons img{
+    width:20px;
+    height:20px;
+    margin:5px;
+}
+
+.green-c{
+    color:rgb(84, 233, 84);
+    fill:rgb(84, 233, 84);
+}
+
+.gray-e{
+    color:rgb(119, 113, 113);
+}
+
+.red-e{
+    color:rgb(211, 52, 52);
+}

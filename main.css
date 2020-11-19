@@ -4,6 +4,10 @@
     padding:0;
 }
 
+:root{
+    --mainGreen:#80cfa9;
+}
+
 body{
     font-family: 'Josefin Sans', sans-serif;
     background:rgb(238, 217, 217);
@@ -32,8 +36,12 @@ input[type=text]{
     height:40px;
     margin:0 0 50px 0;
     border-radius:5px 0px 0px 5px;
-    box-shadow: none;
-    border:none;
+    border-left: 1px;
+    border-right:0px;
+    border-top:1px;
+    border-bottom: 1px;
+    border-color:var(--mainGreen);
+    border-style: solid;
     padding:5px 5px 5px 15px;
     font-size:16px;
 }
@@ -41,6 +49,18 @@ input[type=text]{
 button{
     height:40px;
     padding:0 20px 0 20px;
+    font-size:16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.send{
     border-radius:0px 5px 5px 0px;
-    border:none;
+    border:1px var(--mainGreen) solid;
+}
+
+.clear{
+    border-radius:5px;
+    border:1px var(--mainGreen) solid;
+    margin-top:100px;
 }

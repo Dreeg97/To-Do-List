@@ -13,10 +13,23 @@ body{
     background:rgb(238, 217, 217);
 }
 
+.error-div{
+    margin:auto;
+    display: none;
+    text-align: center;
+    font-size:30px;
+    color:rgb(246, 67, 67);
+    background-color:rgb(229, 155, 155);
+    margin-top:20px;
+    padding:10px;
+    width:80%;
+    border-radius:5px;
+    font-style: italic;
+}
 
 .container{
     margin:auto;
-    width:70%;
+    width:50%;
     text-align: center;
 }
 
@@ -87,4 +100,9 @@ button{
 
 .red-e{
     color:rgb(211, 52, 52);
+}
+
+.list-elements{
+    display:flex;
+    flex-direction: column;
 }
